@@ -30,6 +30,9 @@ def destroy(request, number):
     return redirect ("/blogs")
 
 
+
+
+
 # def edad(request, name, age):
 #     agemayor = str(age + 1)
 #     respuesta = name + " tiene " + agemayor + " años"
