@@ -26,16 +26,14 @@ def edit(request, number):
     respuesta = f"placeholder para editar el blog {number}"
     return HttpResponse(respuesta)
 
+
 def destroy(request, number):
     return redirect ("/blogs")
 
 
-
-
-
-# def edad(request, name, age):
-#     agemayor = str(age + 1)
-#     respuesta = name + " tiene " + agemayor + " años"
-#     return HttpResponse(respuesta)
+def edad(request, name, age):
+    agemayor = str(age + 1)
+    respuesta = name + " tiene " + agemayor + " años"
+    return HttpResponse(respuesta)
 
 # Create your views here.
